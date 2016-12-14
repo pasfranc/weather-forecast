@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa fa-cloud fa-lg"></i> Weather Forecast</a>
+        <ul class="nav navbar-nav float-xs-right">
+            <li class="nav-item" [class.active]="city === selectedCity" (click)="onSelect(city)" 
+            *ngFor="let city of cities">
+                <span class="nav-link">{{city.name}}</span>
+            </li>
+        </ul>       
+    </div>
+</nav>
+<br>
+<city-detail *ngIf="selectedCity" [city]="selectedCity"></city-detail>

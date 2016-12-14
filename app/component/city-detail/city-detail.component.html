@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-title">{{cityForecast?.city}}</h4>
+            <p class="card-text">{{cityForecast?.country}}</p>
+            <div class="row">
+                <div class="col-xs-4" *ngFor="let forecast of cityForecast?.forecast">
+                    <div class="card">
+                        <div class="card-block">
+                            <div class="card-title">
+                                <img src="{{forecast.img}}" class="img-thumbnail" width="50" height="50">
+                                <h4 class="float-xs-right">{{forecast.date}}</h4>
+                            </div>
+                            <p class="card-text">{{forecast.text}}</p>
+                            <p class="card-text">Min: {{forecast.high}} °C - Max {{forecast.low}} °C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
