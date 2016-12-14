@@ -1,6 +1,6 @@
 # weather-forecast
 
-Installation instruction:
+Installation steps:
 
 1. git clone https://github.com/pasfranc/weather-forecast.git weather
 2. cd weather
