@@ -7,4 +7,4 @@ Installation instruction:
 3. npm install
 4. npm start
 
-Enjoy!
+Click on one city on the menu and enjoy the weather forecast!
