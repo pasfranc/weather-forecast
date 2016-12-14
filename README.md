@@ -2,9 +2,9 @@
 
 Installation instruction:
 
-git clone https://github.com/pasfranc/weather-forecast.git weather
-cd weather
-npm install
-npm start
+1. git clone https://github.com/pasfranc/weather-forecast.git weather
+2. cd weather
+3. npm install
+4. npm start
 
 Enjoy!
